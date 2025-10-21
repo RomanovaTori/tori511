@@ -1,0 +1,8 @@
+# узнаем возраст
+answer = input('whats your age?')
+print(answer)
+age = int(answer)
+if age > 16:
+    print('approved')
+elif age < 16:
+    print('refused')
